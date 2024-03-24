@@ -1,0 +1,78 @@
+.card {
+    position: relative;
+    width: 650px;
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color: #272525;
+    padding: 10px;
+    border: 2px solid #c3c6ce;
+    border-radius: 10px;
+    color: #c0c0c0;
+    margin: 30px 0;
+    * {
+        background-color: inherit;
+    }
+    &-descr {
+        text-align: justify;
+    }
+}
+
+.author {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    &-icon {
+        margin-right: 5px;
+        width: 30px;
+    }
+    &-wrapper {
+        width: 200px;
+        display: flex;
+        align-items: center;
+    }
+}
+
+
+.react {
+    width: 90px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &-likes {
+        color: #000;
+    }
+    svg {
+        cursor: pointer;
+    }
+    button {
+        border: none;
+        &:active {
+            transform: scale(0.9);
+        }
+        &:disabled svg{
+            fill: grey;
+        }
+    }
+}
+
+.dislike-icon:hover {
+    fill: red;
+}
+.like-icon:hover {
+    fill: green;
+}
+
+.delete {
+    position: absolute;
+    top: 7px;
+    right: 7px;
+    cursor: pointer;
+    svg:hover {
+        fill: red;
+    }
+    &:hover {
+        transition: transform 0.3s;
+        transform: scale(0.9) rotateZ(10deg);
+    }
+}

@@ -1,0 +1,25 @@
+{
+  "posts": [
+    {
+      "name": "Dzmitry Rybak",
+      "title": "Exploring Web Development: Why React and JavaScript are the Perfect Combination for Building Dynamic Web Applications",
+      "descr": "JavaScript and React are integral parts of modern web development, providing developers with powerful tools for creating interactive user interfaces and managing application state.",
+      "likes": "0",
+      "dislikes": "0"
+    },
+    {
+      "name": "Elon Musk",
+      "title": "Immigrant Motivation: Why Those Who Leave Their Home Country are Often More Driven to Work in a New Place",
+      "descr": "Immigrants possess a unique motivation to work in a foreign country, as they often strive to demonstrate their adaptability, overcome challenges, and achieve success in a new society.",
+      "likes": "0",
+      "dislikes": "0"
+    },
+    {
+      "name": "Gordon Ramsay",
+      "title": "The Art of Boiling Eggs: How Long to Boil Eggs for the Perfect Outcome",
+      "descr": "The boiling time for eggs depends on the desired level of doneness: soft-boiled eggs require 4-6 minutes, medium-boiled eggs take 7-9 minutes, and hard-boiled eggs need 10-12 minutes.",
+      "likes": "0",
+      "dislikes": "0"
+    }
+  ]
+}

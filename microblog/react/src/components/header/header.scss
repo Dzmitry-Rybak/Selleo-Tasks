@@ -1,0 +1,22 @@
+.header {
+    &-wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        div {
+            font-size: 20px;
+            color: #fff;
+        }
+    }
+    &-title{
+        color: #f0ffcb;
+    }
+}
+span {
+    font-size: 20px;
+    cursor: pointer;
+    color: #fff;
+    &:hover {
+        color: #f0ffcb;
+    }
+}
